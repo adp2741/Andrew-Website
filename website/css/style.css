@@ -14,7 +14,7 @@
 
 body {
 	font-family: "Josefin Sans", sans-serif;
-	margin: 0px 0px;
+	margin: 0px;
 }
 
 h1, h2 {
@@ -27,6 +27,8 @@ h1 {
 
 h2 {
 	font-size: 30px;
+	margin-top: 0px;
+	margin-bottom: 0.75em;
 }
 
 a {
@@ -38,7 +40,10 @@ a:hover {
 	text-decoration: none;
 }
 
-section h2 {
+.content-wrap {
+	max-width: 950px;
+	margin: 0px auto;
+	padding: 5px;
 }
 
 .profilePicture {
@@ -56,11 +61,19 @@ header h1, header h2 {
 	color: #C9E4CA;
 }
 
+footer {
+	text-align: center;
+}
+
+.contact-info a {
+	padding: 10px;
+	display: inline-block;
+}
+
 
 /* Work Experience */
 .work {
 	background: #C9E4CA;
-	margin: 0px 0px;
 }
 
 /* Education */
