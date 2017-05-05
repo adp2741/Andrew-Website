@@ -12,6 +12,14 @@
 	src: url(../fonts/Lobster-Regular.ttf);
 }
 
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
 body {
 	font-family: "Josefin Sans", sans-serif;
 	margin: 0px;
@@ -43,12 +51,23 @@ a:hover {
 .content-wrap {
 	max-width: 950px;
 	margin: 0px auto;
-	padding: 5px;
+	padding: 15px;
+	overflow: hidden;
 }
 
-.profilePicture {
-	height: 200px;
-	width: 200px;
+.col-narrow {
+	width: 30%;
+	float: left;
+}
+
+.col-wide {
+	width: 70%;
+	float: left;
+	padding-left: 20px;
+}
+
+.profile-image {
+	border-radius: 50%;
 }
 
 /* Header and Footer */
@@ -59,6 +78,7 @@ header, footer {
 
 header h1, header h2 {
 	color: #C9E4CA;
+	margin: 0px;
 }
 
 footer {
