@@ -7,8 +7,26 @@
 */
 
 /* Global Styles */
-body {
+@font-face {
+	font-family: "Lobster Regular";
+	src: url(../fonts/Lobster-Regular.ttf);
+}
 
+body {
+	font-family: "Josefin Sans", sans-serif;
+	margin: 0px 0px;
+}
+
+h1, h2 {
+	font-weight: 600;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 30px;
 }
 
 a {
@@ -42,9 +60,11 @@ header h1, header h2 {
 /* Work Experience */
 .work {
 	background: #C9E4CA;
+	margin: 0px 0px;
 }
 
 /* Education */
 .education {
 	background: #87BBA2;
+	margin: 0px 0px;
 }
