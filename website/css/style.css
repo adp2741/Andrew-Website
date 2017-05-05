@@ -1,3 +1,50 @@
+/* Color Palette
+#C9E4CA
+#87BBA2
+#55828B
+#3B6064
+#364958
+*/
+
+/* Global Styles */
 body {
-	background: lightblue;
+
+}
+
+a {
+	color: #87BBA2;
+}
+
+a:hover {
+	color: #C9E4CA;
+	text-decoration: none;
+}
+
+section h2 {
+}
+
+.profilePicture {
+	height: 200px;
+	width: 200px;
+}
+
+/* Header and Footer */
+header, footer {
+	background: #364958;
+	color: #87BBA2;
+}
+
+header h1, header h2 {
+	color: #C9E4CA;
+}
+
+
+/* Work Experience */
+.work {
+	background: #C9E4CA;
+}
+
+/* Education */
+.education {
+	background: #87BBA2;
 }
