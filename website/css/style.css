@@ -80,9 +80,13 @@ header, footer {
 	color: #87BBA2;
 }
 
-header h1, header h2, header p {
+header h1, header h2 {
 	color: #C9E4CA;
 	margin: 0px;
+}
+
+header p {
+	color: #87BBA2;
 }
 
 footer {
