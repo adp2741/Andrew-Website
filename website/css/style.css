@@ -62,12 +62,14 @@ a:hover {
 .col-narrow {
 	width: 30%;
 	float: left;
+	min-height: 175px;
 }
 
 .col-wide {
 	width: 70%;
 	float: left;
 	padding-left: 20px;
+	min-height: 175px;
 }
 
 .profile-image {
@@ -113,6 +115,16 @@ footer {
 	margin: 0px 0px;
 }
 
-.education h2, .education h3, .education p {
+.education h2 {
 	color: #364958;
+}
+
+.education h3 {
+	color: #364958;
+	margin-bottom: 0px;
+}
+
+.education p {
+	color: #364958;
+	margin: 0px auto;
 }
