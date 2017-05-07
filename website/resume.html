@@ -9,7 +9,13 @@
 </head>
 <body>
     <!-- // Intro -->
-    <header>
+    <header id="about">
+        <nav class="scroll-buttons">
+            <a href="#about">About</a>
+            <a href="#work">Work Experience</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
         <div class="content-wrap">
             <img src="images/andrew.png" alt="Andrew Perry" class="profile-image col-narrow">
             <div class="col-wide">
@@ -22,7 +28,7 @@
     
     <main> 
         <!-- // Work Experience -->
-        <section class="work">
+        <section id="work" class="work">
             <div class="content-wrap">
                 <h2>Work Experience</h2>
 
@@ -103,25 +109,25 @@
 
 
         <!-- // Education -->
-        <section class="education">
+        <section id="education" class="education">
             <div class="content-wrap">
                 <h2>Education</h2>
 
                 <!-- School details: -->
                 <h3>Master of Science in Environmental Science</h3>
                 <p>University of Colorado at Denver</p> 
-                <p class="tiny-font">Denver, CO — 2009 to 2011</p>
+                <p>Denver, CO — 2009 to 2011</p>
 
                 <h3>Bachelor of Science in Environmental Science</h3>
                 <p>Rochester Institute of Technology</p> 
-                <p class="tiny-font">Rochester, NY — 2003 to 2007</p>
+                <p>Rochester, NY — 2003 to 2007</p>
             <div class="content-wrap">
             <!-- End of school details. -->
         </section>
     </main>
     
     <!-- // Footer & contact info -->
-    <footer>
+    <footer id ="contact">
         <div class="content-wrap">
             <h2>Let's Keep in Touch!</h2>
             
@@ -134,5 +140,6 @@
             <p>Copyright 2017 by Andrew Perry</p>
         <div class="content-wrap">
     </footer>
+    <script type="text/javascript" src="javascript/script.js"></script>
 </body>
 </html>

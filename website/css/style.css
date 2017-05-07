@@ -43,6 +43,10 @@ h2 {
 	margin-bottom: 0.75em;
 }
 
+h3 {
+	margin: 1em auto 0.5em auto;
+}
+
 a {
 	color: #87BBA2;
 }
@@ -55,7 +59,7 @@ a:hover {
 .content-wrap {
 	max-width: 950px;
 	margin: 0px auto;
-	padding: 15px;
+	padding: 40px 15px;
 	overflow: hidden;
 }
 
@@ -80,6 +84,10 @@ a:hover {
 header, footer {
 	background: #364958;
 	color: #87BBA2;
+}
+
+header {
+	padding-top: 50px;
 }
 
 header h1, header h2 {
@@ -109,6 +117,15 @@ footer {
 	color: #364958;
 }
 
+h3 ~ p {
+	margin: 0px;
+}
+
+h3 ~ p + p {
+	font-size: 0.75em;
+	font-style: italic;
+}
+
 /* Education */
 .education {
 	background: #87BBA2;
@@ -129,7 +146,21 @@ footer {
 	margin: 0px auto;
 }
 
-.tiny-font {
-	font-size: 85%;
-	font-style: italic;
+/* Navigation */
+
+nav {
+	text-align: center;
+	background: white;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+nav a {
+	display: inline-block;
+	padding: 10px 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #364958;
 }
