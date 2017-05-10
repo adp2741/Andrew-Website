@@ -72,19 +72,6 @@ a:hover {
 	overflow: hidden;
 }
 
-.col-narrow {
-	width: 30%;
-	float: left;
-	min-height: 50px;
-}
-
-.col-wide {
-	width: 70%;
-	float: left;
-	padding-left: 20px;
-	min-height: 50px;
-}
-
 /* Header and Footer */
 header, footer {
 	background: #364958;
@@ -107,6 +94,8 @@ header p {
 
 .profile-image {
 	border-radius: 50%;
+	height: 150px;
+	width: 150px;
 }
 
 .download {
@@ -117,6 +106,14 @@ header p {
 
 footer {
 	text-align: center;
+}
+
+footer p {
+	margin-bottom: 0px;
+}
+
+footer .content-wrap {
+	padding-bottom: 0px;
 }
 
 .contact-info a {
@@ -165,11 +162,45 @@ h3 ~ p + p {
 	margin: 0px auto;
 }
 
+.education .content-wrap {
+	padding-bottom: 20px;
+}
+
+/* Media Query */
+
+@media (min-width: 900px) {
+	.col-narrow {
+		width: 30%;
+		float: left;
+		min-height: 50px;
+	}
+
+	.col-wide {
+		width: 70%;
+		float: left;
+		padding-left: 20px;
+		min-height: 50px;
+	}
+
+	.profile-image {
+		border-radius: 50%;
+		height: 200px;
+		width: 200px;
+	}
+}
+@media (max-width: 899px) {
+	header {
+		text-align: center;
+	}
+}
+
 /* Navigation */
 
 nav {
 	text-align: center;
-	background: white;
+	background: linear-gradient(rgba(54, 73, 88, 1),
+		rgba(54, 73, 88, 0.4));
+	background-size: cover;
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -181,5 +212,5 @@ nav a {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #364958;
+	color: #C9E4CA;
 }
