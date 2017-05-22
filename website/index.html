@@ -1,48 +1,148 @@
-  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Home</title>
-<!--   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE"/>
-
-  <meta name="HandheldFriendly" content="True" />
-  <meta name="MobileOptimized" content="1024" />
-  <meta name="viewport" content="width=1024, maximum-scale=1" /> -->
-  <link rel="stylesheet" type="text/css" href="/viewer/viewer.css"/>
+    <script src="https://use.fontawesome.com/acf3ac30ca.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew Perry | Resume</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:600,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-<div id="body-element">
-    <header class="site-element" element-id="1403595824563" element-type="HeaderElement">
-        <div class="element-children-container">
-            <div class="site-element" element-id="1379331206400" element-type="image"><img src="https://storage.googleapis.com/wzukusers/user-500003/images/ZPcm4oKc6k6q2LCSs23M3Q.png" width="31" height="37"></div>
-            <nav class="site-element" element-id="1410098332694" element-type="PagesMenu">
-                <nav>
-                  <a href="/">Home</a>
-                  <a href="my-work.html">My Work</a>
-                  <a href="about.html">About</a>
-                  <a href="contact.html">Contact</a>
-                  <a href="resume.html">Resume</a>
-                </nav>
-            </nav>
-            <h1 class="site-element" element-id="1379331412296" element-type="freeText">Andrew Perry</h1>
+    <!-- // Intro -->
+    <header id="about">
+        <a href="resume.pdf" class="btn download">Download PDF</a>
+        <nav class="scroll-buttons">
+            <a href="#about">About</a>
+            <a href="#work">Work Experience</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="content-wrap">
+            <img src="images/andrew.png" alt="Andrew Perry" class="profile-image col-narrow">
+            <div class="col-wide">
+                <h1>Andrew Perry</h1>
+                <h2>Mid Level Software Engineer</h2>
+                <p>Dedicated, determined, and experienced individual eager to prove ability, perform tasks beyond expectations, and exhibit technical skills using professional communication, planning, and analytical skills. I am looking to build my career as a software developer with an excitement for learning any new technologies that await me.</p>
+            </div>
         </div>
     </header>
-    <section class="site-element" element-id="masterPageContentSectionId" element-type="SectionElement"></section>
-    <div class="site-element" element-id="1403595824383" element-type="PageContentElement"></div>
-    <section class="site-element" element-id="1403595824431" element-type="SectionElement">
-        <div class="element-children-container">
-            <div class="site-element" element-id="1379343616592" element-type="image"><img src="https://storage.googleapis.com/wzukusers/user-500003/images/a0_bqdARmkOGJSEFq2EfoQ_1000.png" width="960" height="731"></div>
-            <h1 class="site-element" element-id="1379343827620" element-type="freeText">Andrew Perry</h1>
-            <h2 class="site-element" element-id="1379343922210" element-type="freeText">Developer</h2>
-        </div>
-    </section>
-    <footer class="site-element" element-id="1403595824499" element-type="FooterElement">
-        <div class="element-children-container">
-            <div class="site-element" element-id="1379348101232" element-type="freeText">Copyright © All Rights Reserved</div>
-        </div>
+    
+    <main> 
+        <!-- // Work Experience -->
+        <section id="work" class="work">
+            <div class="content-wrap">
+                <h2>Work Experience</h2>
+
+                <!-- Job Details -->
+                <div class="col-narrow">
+                    <h3>Mid Level Software Engineer</h3>
+                    <p>Tinybop, Inc. - <i>Brooklyn, NY</i></p>
+                    <p>July 2014 to Present</p>
+                </div>
+                <div class="col-wide">
+                    <ul>
+                        <li>Created educational apps for iOS and tvOS using Unity3D.</li>
+                        <li>Worked with a team of designers, technical artists, and educators using Agile methods.</li>
+                        <li>Worked with languages such as C#, Swift, and Obj-C to create and deploy apps to devices.</li>
+                        <li>Created toolsets used by technical artists in the Unity3D environment.</li>
+                        <li>Developed in MonoDevelop and XCode integrated development environments.</li>
+                        <li>Was a developer on the following Tinybop titles: Homes, The Robot Factory, The Monsters, Skyscrapers, Me, and Mammals.</li>
+                        <li>Took on a developer support role for The Weather, integrating it with our user dashboard that was written in Swift.</li>
+                        <li>Worked with storyboards in XCode to create the User Interface for The Everything Machine.</li>
+                        <li>Was a part of Apple's Green Lantern project for Earth Day making changes to our user dashboard for our Earth app, as well as adding new content such as full-screen popovers used for incentivizing the purchase of our in-app feature for that campaign.</li>
+                    </ul>
+                </div>
+
+                <!-- Job Details -->
+                <div class="col-narrow">
+                    <h3>GIS Analyst / Programmer</h3>
+                    <p>FM Global - <i>Norwood, MA</i></p>
+                    <p>February 2013 to June 2014</p>
+                </div>
+                <div class="col-wide">
+                    <ul>
+                        <li>Provided GIS support while also working on a global flood model creating maps for delineating flood zones for 100 and 500 year floods using all available GIS and data resources.</li>
+                        <li>Automated work using parallel processing and subprocessing in Python.</li>
+                        <li>Used R Statistics with Python (RPy2) for automated DEM smoothing using 2d wavelets.</li>
+                        <li>Worked with GRIB2 data from NOAA. Fortran was originally used for data extraction which I then converted to Python and C. Python was used to FTP to the site for data acquisition and C to write data to a SQLite database.</li>
+                        <li>Used C-Types in Python to access C .dll to allow for Python script to run seamlessly.</li>
+                        <li>Used NetCDF C Library to read and write and perform calculations on NetCDF hourly files. The result was a file holding hourly data for 31 years for the entire globe. The C tool allowed the user to query by location and by number of years.</li>
+                        <li>Due to ArcGIS' lack of a necessary tool, I created a C# application to create points and cross sections along river shapefiles by specifying distances between points and cross sections as well as the length of the cross sections.</li>
+                        <li>Implemented ArcObjects to create simple ArcGIS plugins for ArcMap, such as a button that converts all raster data currently open on the map to the same color scheme.</li>
+                    </ul>
+                </div>
+
+                <!-- Job Details -->
+                <div class="col-narrow">
+                    <h3>GIS Analyst</h3>
+                    <p>National Renewable Energy Laboratory - <i>Golden, CO</i></p>
+                    <p>September 2007 to July 2009</p>
+                </div>
+                <div class="col-wide">
+                    <ul>
+                        <li>Worked with vectors and raster imagery (reclassifying, georeferencing, digitizing, tabulating areas, mosaicing, data extraction, and weighted analyses).</li>
+                        <li>Implemented geoprocessing scripting and modeling for data extraction and manipulation from various spatial and non-spatial sources for multiple projects using Python.</li>
+                        <li>Uploaded, maintained, and ran spatial functions on datasets in PostGIS.</li>
+                        <li>Used spreadsheets to create spatial data with PostGIS using command prompt and Python (Psycopg).</li>
+                        <li>Worked with different natural resource data and created aggregated datasets that were used for supply curves.</li>
+                        <li>Provided GIS oversight for a wind deployment barriers project that focused on the cost and location of available wind where turbines could be built with limited effects on radar, public acceptance, transmission and wildlife.</li>
+                    </ul>
+                </div>
+
+                <!-- Job Details -->
+                <div class="col-narrow">
+                    <h3>Environmental Scientist</h3>
+                    <p>Kleinfelder East, Inc. - <i>Bohemia, NY</i></p>
+                    <p>September 2007 to July 2009</p>
+                </div>
+                <div class="col-wide">
+                    <ul>
+                        <li>Worked with clients to organize solutions for the remediation of contaminated groundwater and soil.</li>
+                        <li>Provided oversight for drilling activities (soil borings and well installations) and classified soils as per ASTM standards.</li>
+                        <li>Overlooked the removal of underground storage tanks and excavation of contaminated soils.</li>
+                        <li>Provided health and safety support and air monitoring for high risk activities.</li>
+                        <li>Assisted in writing quarterly monitoring reports describing progress of work on site.</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end of Job Details block. -->
+        </section>
+
+
+        <!-- // Education -->
+        <section id="education" class="education">
+            <div class="content-wrap">
+                <h2>Education</h2>
+
+                <!-- School details: -->
+                <h3>Master of Science in Environmental Science</h3>
+                <p>University of Colorado at Denver</p> 
+                <p>Denver, CO — 2009 to 2011</p>
+
+                <h3>Bachelor of Science in Environmental Science</h3>
+                <p>Rochester Institute of Technology</p> 
+                <p>Rochester, NY — 2003 to 2007</p>
+            <div class="content-wrap">
+            <!-- End of school details. -->
+        </section>
+    </main>
+    
+    <!-- // Footer & contact info -->
+    <footer id ="contact">
+        <div class="content-wrap">
+            <h2>Let's Keep in Touch!</h2>
+            
+            <!-- Social media and contact links. Add or remove any networks. -->
+            <div class="contact-info">
+                <a href="mailto:adp2741@gmail.com">adp2741@gmail.com</a>
+                <a href="https://www.linkedin.com/in/andrew-perry" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+<span class="sr-only">LinkedIn</span></a>
+            </div>
+
+            <p>Copyright 2017 by Andrew Perry</p>
+        <div class="content-wrap">
     </footer>
-</div></body>
+    <script type="text/javascript" src="javascript/script.js"></script>
+</body>
 </html>
